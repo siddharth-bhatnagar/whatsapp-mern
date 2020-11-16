@@ -5,7 +5,7 @@ import { AttachFile, MoreVert, SearchOutlined } from "@material-ui/icons";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
 import MicIcon from '@material-ui/icons/Mic';
 
-function Chat() {
+function Chat(prop) {
   return (
     <div className="chat">
       <div className="chat__header">
